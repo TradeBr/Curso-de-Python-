@@ -1,0 +1,5 @@
+nome = input('Digite seu nome completo: ')
+quantosa = nome.upper().count('A')
+primeiroa = nome.upper().index('A')
+ultimoa = nome.upper().rindex('A')
+print('Seu nome compleot é {}, seu nome tem {} A´s o primeiro apareceu na posição {} e o último na posição {}'.format(nome,quantosa,primeiroa,ultimoa))
